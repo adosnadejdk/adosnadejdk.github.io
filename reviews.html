@@ -1,31 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
-  <meta charset="UTF-8">
-  <title>Reviews – HomeCare</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Recenzie – Opatrovateľská služba</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Leave a Review</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="reviews.html">Reviews</a>
-    </nav>
-  </header>
-  <main>
+  <div class="container">
+    <h1>Vaše recenzie</h1>
+    <p>Budeme radi, ak nám zanecháte spätnú väzbu.</p>
+
     <form action="https://formspree.io/f/mvgqwwdg" method="POST">
-    <label for="name">Name:</label><br />
-    <input type="text" id="name" name="name" required><br />
+      <label for="name">Meno:</label><br />
+      <input type="text" id="name" name="name" required><br />
 
-    <label for="review">Review:</label><br />
-    <textarea id="review" name="message" rows="5" required></textarea><br />
+      <label for="review">Recenzia:</label><br />
+      <textarea id="review" name="message" rows="5" required></textarea><br />
 
-    <button type="submit">Submit Review</button>
-</form>
+      <button type="submit">Odoslať</button>
+    </form>
 
-  </main>
+    <a href="index.html">← Späť na domov</a>
+  </div>
 </body>
 </html>
